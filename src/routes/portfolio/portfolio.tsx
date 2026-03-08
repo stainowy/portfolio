@@ -30,7 +30,7 @@ export default function Portfolio() {
       title: 'Thallium',
       description:
         'A programming studio that creates private, self-hosted software that helps keep your emails, files, conversations, and passwords safe. (In development)',
-      stack: 'REACT, VITE, TYPESCRIPT, SCSS',
+      stack: 'REACT, VITE, TYPESCRIPT',
       role: 'CEO, FRONTEND DEVELOPER',
       link: 'https://thallium.pages.dev',
     },
