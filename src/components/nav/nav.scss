@@ -1,0 +1,31 @@
+.main-navigation {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+      transform: translateY(-2px);
+    }
+
+    &.active {
+      color: rgba(255, 255, 255, 0.8);
+
+      &:hover {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+}
